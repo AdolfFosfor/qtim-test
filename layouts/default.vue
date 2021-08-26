@@ -6,7 +6,7 @@
           <v-progress-circular class="mt-4" :size="40" indeterminate :width="8" color="info" />
         </v-sheet>
       </v-container>
-      <v-container :class="{ dNone: loading }" fluid>
+      <v-container class="mb-12" :class="{ dNone: loading }" fluid>
         <Nuxt />
       </v-container>
     </v-main>

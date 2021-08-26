@@ -18,10 +18,6 @@
         <v-img :src="singlePost.image" max-height="60vh" />
         <v-card-subtitle class="d-flex justify-space-between align-center">
           <span class="text-h3 white--text" v-text="singlePost.title" />
-          <div class="d-flex align-center">
-            <span class="subtitle-1" v-text="$dateFns.format(singlePost.createdAt, 'dd-MM-yyyy')" />
-            <v-icon right v-text="`mdi-calendar`" />
-          </div>
         </v-card-subtitle>
         <v-card-text>
           {{ singlePost.description }}

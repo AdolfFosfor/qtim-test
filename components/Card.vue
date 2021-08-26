@@ -19,7 +19,7 @@
     props: {
       image: {
         type: String,
-        default: 'http://lorempixel.com/640/480/technics',
+        default: 'https://lorempixel.com/640/480/technics',
       },
       title: {
         type: String,
